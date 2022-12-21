@@ -1,0 +1,22 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.17",
+    "axios": "^1.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "json2csv": "^5.0.7",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
